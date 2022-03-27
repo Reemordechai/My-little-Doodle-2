@@ -134,3 +134,4 @@ MonoBehaviour:
   score: 0
   playerTransform: {fileID: 6161610516938978300, guid: 32aad2dbd616b37498860a1b81faa0ea, type: 3}
   crystalCounter: 0
+  oudio: {fileID: 8300000, guid: 6b5b8c273c551b34e9c89e490de071ae, type: 3}

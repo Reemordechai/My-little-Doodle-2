@@ -6,6 +6,8 @@ public class JumperPlatform : MonoBehaviour
 {
     [Range(5, 60)]
     public float jumpForce;
+    public AudioClip oudio;
+    public float audioVolume;
     void Start()
     {
 
@@ -28,7 +30,9 @@ public class JumperPlatform : MonoBehaviour
                 Vector3 newVelocity = rb.velocity;
                 newVelocity.y = jumpForce;
                 rb.velocity = newVelocity;
-                GetComponent<AudioSource>().Play();
+                Camera maincam = GameObject.Find("Main Camera").GetComponent<Camera>();
+                AudioSource.PlayClipAtPoint(oudio, maincam.transform.position);
+                
             }
         }
 

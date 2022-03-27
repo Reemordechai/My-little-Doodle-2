@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
     public int score;
     public Transform playerTransform;
     public int crystalCounter = 0;
+    public AudioClip oudio;
     // Start is called before the first frame update
     void Start()
     {
@@ -43,6 +44,8 @@ public class PlayerMovement : MonoBehaviour
     {
         if (other.GetComponent<BoomBoom>())
         {
+            Camera maincam = GameObject.Find("Main Camera").GetComponent<Camera>();
+            AudioSource.PlayClipAtPoint(oudio, maincam.transform.position);
             float newZPosition = playerTransform.position.z - 3;
             transform.position = new Vector3(transform.position.x,
                                             transform.position.y,

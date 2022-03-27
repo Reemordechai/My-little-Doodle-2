@@ -110,6 +110,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpForce: 9.3
+  oudio: {fileID: 8300000, guid: 01c6ec6c03cf99346b706ece1133ba33, type: 3}
 --- !u!82 &-8004116458106345383
 AudioSource:
   m_ObjectHideFlags: 0

@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public Vector3 rotation;
     public Vector3 spawnPosition;
     public GameObject platformPrefab;
     public GameObject jumperPrefab;
@@ -76,7 +77,7 @@ public class GameManager : MonoBehaviour
         {
             if (rand_chance > 6 & rand_chance < 9)
             {
-                Instantiate(boomballPrefab, spawnPosition, Quaternion.identity);
+                Instantiate(boomballPrefab, spawnPosition, Quaternion.LookRotation(rotation));
             }
         }
 
