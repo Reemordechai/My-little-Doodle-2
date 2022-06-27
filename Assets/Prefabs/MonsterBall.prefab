@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6289828728494566824}
   - component: {fileID: 54321023695686732}
   - component: {fileID: 8199289381110502332}
+  - component: {fileID: 9171953847240412683}
   m_Layer: 0
   m_Name: MonsterBall
   m_TagString: Untagged
@@ -113,7 +114,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.06429463
+  m_Radius: 0.05
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &8199289381110502332
 MonoBehaviour:
@@ -125,5 +126,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 70323026393a16f4183725ad4b2db192, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &9171953847240412683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6830166996261611846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073e71da832a9004b86746c54bb241f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

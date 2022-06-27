@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 4980113773007381068}
   - component: {fileID: 4980113773007381069}
   - component: {fileID: 4980113773007381071}
+  - component: {fileID: 4664213451142581116}
+  - component: {fileID: 5163079759561959894}
   m_Layer: 0
   m_Name: Crystal
   m_TagString: Untagged
@@ -128,3 +130,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerMovement: {fileID: 0}
   oudio: {fileID: 8300000, guid: 02772502874955b46ba44a559d85e6a4, type: 3}
+--- !u!95 &4664213451142581116
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5322554124016625061}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f1e3cacdb39c5354d8226f0ffe314ba5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5163079759561959894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5322554124016625061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c439153ef248e754489e4fc46c98fbc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
